@@ -49,7 +49,7 @@ const Techstack = () => {
         </Col>
         <Col xs={4} md={2} className="tech-icons" onMouseLeave={handleMouseLeave} onMouseEnter={() => getTooltipId(1)}>
           <SiReduxsaga color="#7649be" />
-          <p className="animate-charcter" style={{ fontSize: '14px' }}> React Redux</p>
+          <p className="animate-charcter" style={{ fontSize: '14px' }}> Redux Saga</p>
         </Col>
         <Col xs={4} md={2} className="tech-icons" onMouseLeave={handleMouseLeave} onMouseEnter={() => getTooltipId(1)}>
           < FaVuejs color="green" />
