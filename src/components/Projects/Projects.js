@@ -11,18 +11,19 @@ function Projects() {
         <h1 className="project-heading">
            Providing<strong className="purple"> Services </strong> In
         </h1>
-        {/* <p style={{ color: "white" }}>
-          Here are a Services I've worked on recently.
-        </p> */}
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col sm={4} className="project-card">
             <ProjectCard
               videoUrl={videoUrl}
               isBlog={false}
               title="Website Development Using React JS"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              description={`Hello! I'm a highly skilled React.js developer with a passion for creating dynamic and interactive web applications. I have extensive experience working with React and its related technologies, such as Redux, Mobx state Tree and  MUI and I'm confident in my ability to bring your project vision to life.
+
+              My expertise lies in building scalable, high-performance web applications that are both user-friendly and visually appealing. I'm well-versed in the latest web development best practices, and I always strive to create code that is clean, maintainable, and easily understandable.
+              
+              Whether you need help with a single component or a complete web application.
+              
+              Let's work together to create a stunning React.js web application that delivers the results you need. Contact me today to discuss your project!`}
             />
           </Col>
 
@@ -31,9 +32,13 @@ function Projects() {
               videoUrl={videoUrl}
               isBlog={false}
               title="Existing code bug fixes"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              description="I'm a seasoned software developer with expertise in fixing complex bugs and errors in websites and applications. My experience includes working with various programming languages and platforms, and I'm confident in my ability to quickly identify and resolve issues.
+
+              I'm dedicated to delivering high-quality work that meets the specific needs of my clients. Whether you need a simple bug fix or a more complex solution, I'll work closely with you to ensure complete satisfaction. With my attention to detail and commitment to meeting deadlines, you can trust that your project is in good hands.
+              
+              Let's work together to bring your website or application up to its full potential.
+              
+              Contact me today to discuss your bug fixing needs!"
             />
           </Col>
 
@@ -42,9 +47,11 @@ function Projects() {
               videoUrl={videoUrl}
               isBlog={false}
               title="Manual Testing"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              description={`I'm an experienced manual tester with a keen eye for detail and a passion for quality assurance. My expertise lies in identifying and reporting defects in software applications, and I have a strong understanding of both functional and non-functional testing.
+
+              I'm committed to providing thorough and comprehensive testing services to ensure that your software is free from bugs and errors. I'm proficient in various testing methodologies, such as regression testing, integration testing, and user acceptance testing, and I have experience working with a variety of testing tools and platforms.
+              
+              Whether you're launching a new software application or simply need a fresh set of eyes to identify potential issues, Let's work together to ensure that your software is ready for launch. Contact me today to discuss your manual testing needs!`}
             />
           </Col>
         </Row>

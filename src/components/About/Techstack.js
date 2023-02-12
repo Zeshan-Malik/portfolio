@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
-import { Col, OverlayTrigger, Row } from "react-bootstrap";
+import React from "react";
+import { Col, Row } from "react-bootstrap";
 import "react-tooltip/dist/react-tooltip.css";
-import { ReactComponent as AntDIcon } from '../../Assets/antDIcon.svg'
 import {
   DiJavascript1,
   DiReact,
@@ -15,8 +14,6 @@ import {
   SiApacheecharts,
   SiReduxsaga,
 } from "react-icons/si";
-import { Tooltip as ReactTooltip } from "react-tooltip";
-import style from './style.css'
 
 import {
   BsFillBootstrapFill
@@ -24,13 +21,6 @@ import {
 
 
 const Techstack = () => {
-  const [active, setActive] = useState(null)
-  const getTooltipId = (val) => {
-    setActive(val)
-  }
-  const handleMouseLeave = () => {
-    setActive(null)
-  }
 
   return (
     <>
@@ -43,15 +33,15 @@ const Techstack = () => {
           <DiReact color="#5ad1f6" />
           <p className="animate-charcter" style={{ fontSize: '14px' }}>React JS</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons" onMouseLeave={handleMouseLeave} onMouseEnter={() => getTooltipId(1)}>
+        <Col xs={4} md={2} className="tech-icons" >
           <SiRedux color="#7649be" />
           <p className="animate-charcter" style={{ fontSize: '14px' }}> React Redux</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons" onMouseLeave={handleMouseLeave} onMouseEnter={() => getTooltipId(1)}>
+        <Col xs={4} md={2} className="tech-icons" >
           <SiReduxsaga color="#7649be" />
           <p className="animate-charcter" style={{ fontSize: '14px' }}> Redux Saga</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons" onMouseLeave={handleMouseLeave} onMouseEnter={() => getTooltipId(1)}>
+        <Col xs={4} md={2} className="tech-icons">
           < FaVuejs color="green" />
           <p className="animate-charcter" style={{ fontSize: '14px' }}>Vue JS</p>
         </Col>
@@ -59,19 +49,19 @@ const Techstack = () => {
           <SiMobxstatetree color="#e96d03" />
           <p className="animate-charcter" style={{ fontSize: '14px' }}>Mobx</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons" onMouseLeave={handleMouseLeave} onMouseEnter={() => getTooltipId(1)}>
+        <Col xs={4} md={2} className="tech-icons" >
           <SiMaterialui color="#4180ff" />
           <p className="animate-charcter" style={{ fontSize: '14px' }}>Material UI</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons" onMouseLeave={handleMouseLeave} onMouseEnter={() => getTooltipId(1)}>
+        <Col xs={4} md={2} className="tech-icons" >
           <BsFillBootstrapFill color="#7911f1" />
           <p className="animate-charcter" style={{ fontSize: '14px' }}>Bootstrap</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons" onMouseLeave={handleMouseLeave} onMouseEnter={() => getTooltipId(1)}>
+        <Col xs={4} md={2} className="tech-icons">
           <SiApacheecharts color="#dc375e" />
           <p className="animate-charcter" style={{ fontSize: '14px' }}>Apache Echarts</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons" onMouseLeave={handleMouseLeave} onMouseEnter={() => getTooltipId(1)}>
+        <Col xs={4} md={2} className="tech-icons" >
           <DiGit color="#e84e31" />
           <p className="animate-charcter" style={{ fontSize: '14px' }}>GIT</p>
         </Col>
