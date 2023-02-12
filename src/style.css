@@ -201,6 +201,8 @@ button:focus {
   transition: all 0.3s ease-out 0s;
 }
 
+
+
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
 }
@@ -256,12 +258,15 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  z-index: 1;
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
-  background-repeat: no-repeat;
   padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  /* padding-top: 30px !important; */
+  
+  color: white !important;
+ 
+
 }
 
 .home-content {
@@ -320,12 +325,12 @@ button:focus {
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  /* padding-top: 70px !important; */
 }
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
+  /* padding-top: 100px !important; */
   padding-bottom: 20px !important;
   text-align: center;
 }
@@ -402,8 +407,9 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: blueviolet;
   bottom: 0 !important;
+  position: fixed;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
 }
@@ -444,11 +450,21 @@ button:focus {
 /* --------- */
 /* Projects */
 /* --------- */
+.section-home{
+  background-image: url(./Assets/my-home-bg.png) !important;
+  background-repeat: no-repeat;
+  /* background-size: 100vw 100vh; */
+  background-size: cover !important;
+}
 .project-section {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: url(./Assets/Home.png) !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
 }
 
 .project-card {
@@ -462,10 +478,11 @@ button:focus {
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
-  background-color: transparent !important;
+  background-color: #7766e4 !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  border-radius: 8px;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
@@ -546,11 +563,14 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: url(./Assets/about-bg.png) !important;
   color: white !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
 }
 
 .tech-icons {
+  background-color: rgb(243, 240, 240);
   font-size: 4.5em !important;
   margin: 15px !important;
   padding: 10px !important;
@@ -606,8 +626,10 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: url(./Assets/reume-bg.png) !important;
   color: white !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
 }
 
 .resume {
@@ -740,4 +762,8 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.active .nav-link{
+  color: rgb(17, 76, 236) !important;
 }

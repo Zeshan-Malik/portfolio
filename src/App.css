@@ -36,6 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
 .tech-icons{
   cursor: pointer;
   /* display: flex; */
@@ -54,7 +55,7 @@
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
-  color: #fff;
+  color: #fff !important;
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;

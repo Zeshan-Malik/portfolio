@@ -35,11 +35,11 @@ const Techstack = () => {
   return (
     <>
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-        <Col xs={4} md={2} className="tech-icons" onMouseLeave={handleMouseLeave} onMouseEnter={() => getTooltipId(1)} >
+        <Col xs={4} md={2} className="tech-icons "  >
           <DiJavascript1 color="white" />
           <p className="animate-charcter" style={{ fontSize: '14px' }}>JavaScript</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons" onMouseLeave={handleMouseLeave} onMouseEnter={() => getTooltipId(2)}>
+        <Col xs={4} md={2} className="tech-icons">
           <DiReact color="#5ad1f6" />
           <p className="animate-charcter" style={{ fontSize: '14px' }}>React JS</p>
         </Col>

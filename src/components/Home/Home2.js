@@ -7,8 +7,8 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-
+import { FaLinkedinIn } from "react-icons/fa"; 
+import { SiUpwork, SiFiverr,SiFreelancer } from "react-icons/si";
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -72,7 +72,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                  <SiUpwork color={'#14a800'} />
                 </a>
               </li>
               <li className="social-icons">
@@ -82,7 +82,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <SiFiverr color={'#14a800'} size={30} />
                 </a>
               </li>
               <li className="social-icons">
@@ -92,7 +92,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn />
+                  <SiFreelancer color={'#29b3fe'} size={30} />
                 </a>
               </li>
               <li className="social-icons">
