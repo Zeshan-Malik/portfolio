@@ -410,11 +410,12 @@ button:focus {
   background-color: blueviolet;
   bottom: 0 !important;
   position: fixed;
-  padding-top: 10px !important;
-  padding-bottom: 8px !important ;
+  /* padding-top: 10px !important;
+  padding-bottom: 8px !important ; */
 }
 .footer-copywright {
   text-align: center !important;
+  align-self: center;
 }
 
 .footer-body {
@@ -425,6 +426,7 @@ button:focus {
 @media (max-width: 767px) {
   .footer-copywright {
     text-align: center !important;
+    align-self: center;
   }
 
   .footer-body {
@@ -630,6 +632,7 @@ button:focus {
   color: white !important;
   background-repeat: no-repeat;
   background-size: cover !important;
+  overflow-y: hidden !important;
 }
 
 .resume {

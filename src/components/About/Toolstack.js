@@ -13,7 +13,7 @@ function Toolstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiLinux />
-        <p className="animate-charcter" style={{ fontSize: '14px' }}> React Redux</p>
+        <p className="animate-charcter" style={{ fontSize: '14px' }}> Linux</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode fill="#4aa6ea"/>

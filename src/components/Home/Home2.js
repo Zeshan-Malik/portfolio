@@ -2,10 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillInstagram,
-} from "react-icons/ai";
-import { SiUpwork, SiFiverr,SiFreelancer } from "react-icons/si";
+import { SiUpwork, SiFiverr,SiFreelancer,SiLinkedin } from "react-icons/si";
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -64,7 +61,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://www.upwork.com/freelancers/~0132d5ab05e75a9d40"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -74,7 +71,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://www.fiverr.com/zeshan_5055?up_rollout=true"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -84,7 +81,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.freelancer.com/u/Zeshanmalik5055"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -94,12 +91,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.linkedin.com/in/zeshanmalik5055/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <SiLinkedin color={'#0a66c2'}/>
                 </a>
               </li>
             </ul>

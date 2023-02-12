@@ -6,6 +6,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import {SiStackoverflow} from "react-icons/si"; 
+import { SiUpwork, SiFiverr,SiFreelancer,SiLinkedin } from "react-icons/si";
 
 function Footer() {
   let date = new Date();
@@ -21,46 +22,47 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://github.com/Zeshan-Malik"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub  />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://stackoverflow.com/users/20154635/zeshan-malik"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <SiStackoverflow color={'#f48225'} />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/zeshanmalik5055/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
+          <li className="social-icons">
+                <a
+                  href="https://www.upwork.com/freelancers/~0132d5ab05e75a9d40"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiUpwork color={'#14a800'} />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.fiverr.com/zeshan_5055?up_rollout=true"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiFiverr color={'#14a800'} size={30} />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.freelancer.com/u/Zeshanmalik5055"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiFreelancer color={'#29b3fe'} size={30} />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/zeshanmalik5055/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <SiLinkedin color={'#0a66c2'}/>
+                </a>
+              </li>
+           
           </ul>
         </Col>
       </Row>
