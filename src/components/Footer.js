@@ -14,15 +14,14 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        {/* <Col md="4" className="footer-copywright">
+        <Col md="4" className="footer-copywright">
           <h3>Designed and Developed by Zeshan Malik</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} Zeshan Malik</h3>
-        </Col> */}
-        <Col md="12" className="footer-body">
+        </Col>
+        <Col md="4" className="footer-body">
           <ul className="footer-icons">
-          <h3>Find Me On</h3>
           <li className="social-icons">
                 <a
                   href="https://www.upwork.com/freelancers/~0132d5ab05e75a9d40"
