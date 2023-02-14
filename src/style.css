@@ -420,7 +420,8 @@ button:focus {
 
 .footer-body {
   z-index: 1;
-  text-align: center !important;
+  display: flex;
+  justify-content: flex-end !important;
 }
 
 @media (max-width: 767px) {
@@ -441,6 +442,7 @@ button:focus {
   margin-bottom: 0.5em !important;
 }
 .footer-icons {
+  display: flex;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
   padding: 0 !important;
